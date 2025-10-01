@@ -1,0 +1,17 @@
+.site-footer {
+  background: #f7d5d6;
+  color: #111;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  padding: 18px 16px;
+
+  /* pull the footer down onto the grass a bit */
+  margin-top: calc(-1 * clamp(10px, 2vw, 24px));
+
+  position: relative;
+  z-index: 1; /* above the grass strip */
+}
+.site-footer p {
+  margin: 4px 0;
+}

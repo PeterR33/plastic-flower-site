@@ -1,0 +1,25 @@
+.pf-section {
+  width: min(1150px, 95vw);
+  margin: 0 auto;
+  padding: 0 0 48px;
+}
+.after-hero {
+  padding-top: 96px;
+}
+.section-headline {
+  margin: 8px 0 32px; /* was ~16 — a bit bigger gap now */
+  text-align: center;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  font-size: clamp(24px, 4.2vw, 34px);
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+/* this controls the gap between the Shows section and the Album section */
+.push-down {
+  margin-top: 48px; /* was larger; this tightens the distance */
+}
+.section-headline.mt {
+  margin-top: 24px;
+}

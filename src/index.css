@@ -1,0 +1,12 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Handjet:wght@400;600;700;800&display=swap");
+
+/* sectioned styles */
+@import "./styles/base.css";
+@import "./styles/header.css";
+@import "./styles/hero.css";
+@import "./styles/sections.css";
+@import "./styles/shows.css";
+@import "./styles/album.css";
+@import "./styles/albumPlaceholder.css";
+@import "./styles/merch.css";

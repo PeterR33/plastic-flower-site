@@ -1,0 +1,40 @@
+/* ================================
+   Placeholder Album Styles
+   ================================ */
+
+.album-placeholder .album-3d {
+  width: min(520px, 90vw); /* match the first album width */
+}
+
+.album-placeholder .album-face {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.18);
+}
+
+.ph-front {
+  background: #d9d9d9;
+  color: #111;
+}
+
+.ph-back {
+  background: #ececec;
+  color: #111;
+  transform: rotateY(180deg);
+}
+
+.ph-label {
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: clamp(20px, 3.8vw, 34px);
+  text-align: center;
+  padding: 0 16px;
+}
+
+@media (max-width: 640px) {
+  .album-placeholder .album-3d {
+    width: min(440px, 94vw);
+  }
+}

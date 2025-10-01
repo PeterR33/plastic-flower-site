@@ -1,0 +1,16 @@
+.grass-strip {
+  width: 100%;
+  height: clamp(90px, 12vw, 160px); /* responsive height */
+  background-image: url("../assets/Flowers.png"); /* your image */
+  background-repeat: repeat-x; /* tile horizontally */
+  background-position: bottom center;
+  background-size: auto 100%; /* full height, auto width */
+
+  /* keep that pixel-art vibe crispy */
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+
+  /* ensure it sits behind the footer when the footer overlaps a bit */
+  position: relative;
+  z-index: 0;
+}
