@@ -8,10 +8,10 @@ export default function AlbumPlaceholder() {
     <div className={`album-flip ${flipped ? "flipped" : ""}`}>
       <button className="album-3d" onClick={() => setFlipped(!flipped)}>
         <div className="album-face album-front">
-          <div className="placeholder-front">Happy Birthday Aleks!</div>
+          <div className="placeholder-front">Coming Soong</div>
         </div>
         <div className="album-face album-back">
-          <div className="placeholder-back">Coming Soon</div>
+          <div className="placeholder-back">Hurry Up</div>
         </div>
       </button>
     </div>
