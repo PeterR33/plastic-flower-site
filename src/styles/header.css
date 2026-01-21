@@ -138,3 +138,24 @@
     font-size: 16px; /* shrink icons a bit */
   }
 }
+
+/* hide the mail icon on smaller screens to avoid overlap */
+@media (max-width: 640px) {
+  .socials .icon-mail {
+    display: none;
+  }
+  .socials {
+    gap: 10px;
+  }
+}
+
+/* tighten even more on very small screens */
+@media (max-width: 420px) {
+  .socials .icon-mail {
+    display: none;
+  }
+  .socials a,
+  .socials .social-btn {
+    font-size: 16px;
+  } /* shrink others slightly */
+}

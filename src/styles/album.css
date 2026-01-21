@@ -10,6 +10,12 @@
   gap: 10px; /* tight gap between cover and panel */
 }
 
+.album-stack {
+  display: grid;
+  gap: clamp(28px, 4vw, 48px);
+  justify-items: center;
+}
+
 /* 3D flip button */
 .album-3d {
   border: 0;
@@ -42,6 +48,24 @@
 }
 .album-back {
   transform: rotateY(180deg);
+}
+
+.album-back.single-back {
+  background: #141414;
+  color: #f7d5d6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 18px;
+  text-align: center;
+}
+
+.single-back-label {
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  line-height: 1.1;
+  font-size: clamp(20px, 3.2vw, 34px);
 }
 
 /* decorative shell (ok to keep) */

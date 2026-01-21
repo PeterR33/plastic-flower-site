@@ -33,6 +33,24 @@
   border-radius: 14px;
   font-size: clamp(16px, 1.8vw, 22px); /* bigger text */
 }
+.show-row-link {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  border: 0;
+  background: transparent;
+  width: 100%;
+  text-align: left;
+  font: inherit;
+}
+.show-row-link:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+.show-row-link:focus-visible {
+  outline: 2px solid rgba(0, 0, 0, 0.3);
+  outline-offset: 2px;
+}
 .show-row + .show-row {
   border-top: 1px solid rgba(0, 0, 0, 0.06);
 }
