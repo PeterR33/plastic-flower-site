@@ -9,8 +9,8 @@ import ShowModal from "../components/ShowModal";
 
 import albumFront from "../assets/album.png";
 import albumBack from "../assets/album-back.png";
-import pocketCover from "../assets/Pocket.PNG";
-import arpCover from "../assets/ARP.PNG";
+import pocketCover from "../assets/Pocket.png";
+import arpCover from "../assets/ARP.png";
 import { LINKS } from "../config/links";
 import Footer from "../components/Footer";
 import GrassStrip from "../components/GrassStrip";
