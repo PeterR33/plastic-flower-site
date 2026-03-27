@@ -34,6 +34,22 @@ export default function Home() {
 
   const upcoming = [
     {
+      name: "The Last One",
+      date: "04/11",
+      time: "Music 6:30 PM · Party 9:00 PM",
+      location: "House Show",
+      modal: {
+        description:
+          "A house show like no other. Music kicks off at 6:30 PM and the party runs until the night ends. Come out and celebrate with us.",
+        lineup: [
+          "Seemaless",
+          "Plastic Flower",
+          "Calle Rossa",
+          "Mor'Du",
+        ],
+      },
+    },
+    {
       name: "Live Set",
       date: "02/12",
       time: "Doors 7:00 PM · Show 7:30 PM",
@@ -74,12 +90,12 @@ export default function Home() {
       {/* hero observed for pinning */}
       <Hero ref={heroRef} pinned={pinned} />
 
-      <section className="pf-section after-hero">
-        <h2 className="section-headline">Upcoming&nbsp;Shows</h2>
+      <section id="shows" className="pf-section after-hero">
+        <h2 className="section-headline">Shows</h2>
         <ShowsCard upcoming={upcoming} onShowClick={onShowClick} />
       </section>
 
-      <h2 className="section-headline mt">Our Music</h2>
+      <h2 id="music" className="section-headline mt">Our Music</h2>
       <section className="pf-section" style={{ marginTop: 12 }}>
         <div className="album-stack">
           <AlbumPlaceholder
@@ -121,7 +137,22 @@ export default function Home() {
         show={activeShow}
       />
 
-      <section className="pf-section" style={{ marginTop: 6 }}>
+      <div className="music-strip">
+        <section id="films" className="pf-section" style={{ marginTop: 24 }}>
+          <h2 className="section-headline">Films</h2>
+          <div className="films-video-wrap">
+            <iframe
+              className="films-video"
+              src="https://www.youtube.com/embed/hbNSIxDTsdY"
+              title="Plastic Flower music video"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+        </section>
+      </div>
+
+      <section id="merch" className="pf-section" style={{ marginTop: 6 }}>
         <MerchSection instaHref="https://www.instagram.com/plasticflowerband/" />
       </section>
 

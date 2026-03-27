@@ -1,6 +1,6 @@
 /* Official Merch */
 .merch .section-headline {
-  color: #111; /* darker title like your mock */
+  color: #fff;
   text-shadow: none;
 }
 
@@ -40,6 +40,7 @@
 .merch-title {
   font-weight: 800;
   letter-spacing: 0.02em;
+  color: #fff;
 }
 
 /* CTA */

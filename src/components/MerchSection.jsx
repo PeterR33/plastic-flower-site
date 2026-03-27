@@ -1,10 +1,10 @@
-import merchImg from "../assets/PlaceholderMerch.jpeg"; // replace when you have real photos
+const merchImg = "/MerchPhoto.png";
 
 export default function MerchSection({ instaHref = "#" }) {
   const items = [
-    { id: 1, title: "Merch coming soon.", img: merchImg },
-    { id: 2, title: "Merch coming soon.", img: merchImg },
-    { id: 3, title: "Merch coming soon.", img: merchImg },
+    { id: 1, title: "Buy", img: merchImg },
+    { id: 2, title: "Buy", img: merchImg },
+    { id: 3, title: "Buy", img: merchImg },
   ];
 
   return (

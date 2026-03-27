@@ -7,15 +7,49 @@
   padding-top: 96px;
 }
 .section-headline {
-  margin: 8px 0 32px; /* was ~16 — a bit bigger gap now */
+  margin: 8px 0 32px;
   text-align: center;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  font-size: clamp(24px, 4.2vw, 34px);
+  font-family: var(--font-title);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  font-size: clamp(32px, 4.2vw, 48px);
   color: #fff;
   text-transform: uppercase;
   text-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
 }
+.films-video-wrap {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 */
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 0 rgba(0, 0, 0, 0.12), 0 22px 34px rgba(0, 0, 0, 0.18);
+}
+
+.films-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.films-coming-soon {
+  text-align: center;
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: 17px;
+  opacity: 0.7;
+  margin: 0;
+}
+
+/* ---- Green strip wrapping the Music section ---- */
+.music-strip {
+  width: 100%;
+  background: #064232;
+  padding-bottom: 48px;
+}
+
 /* this controls the gap between the Shows section and the Album section */
 .push-down {
   margin-top: 48px; /* was larger; this tightens the distance */
