@@ -72,4 +72,7 @@
   .merch-grid {
     grid-template-columns: 1fr;
   }
+  .merch-card:nth-child(n+2) {
+    display: none;
+  }
 }

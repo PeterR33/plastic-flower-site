@@ -50,6 +50,21 @@ export default function Home() {
       },
     },
     {
+      name: "Music & Poetry Night",
+      date: "03/21",
+      time: "Doors 7:00 PM · Ends 9:30 PM",
+      location: "MySpace, Downtown Phoenix",
+      modal: {
+        description:
+          "A night of music and poetry in the heart of Downtown Phoenix at MySpace. An intimate evening blending sound and spoken word.",
+        lineup: [
+          "Plastic Flower",
+          "Glassy Wells",
+          "Kaden Johnson",
+        ],
+      },
+    },
+    {
       name: "Live Set",
       date: "02/12",
       time: "Doors 7:00 PM · Show 7:30 PM",

@@ -137,7 +137,7 @@
 
 @media (max-width: 480px) {
   .topbar-title {
-    display: none; /* too cramped on small screens */
+    font-size: clamp(12px, 3.2vw, 16px);
   }
   .socials {
     gap: 8px;
