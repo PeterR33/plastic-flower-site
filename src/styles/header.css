@@ -137,6 +137,9 @@
 
 @media (max-width: 480px) {
   .topbar-title {
+    position: static;
+    transform: none;
+    text-align: left;
     font-size: clamp(12px, 3.2vw, 16px);
   }
   .socials {

@@ -137,9 +137,8 @@
 
 @media (max-width: 480px) {
   .hero-img {
-    object-fit: contain;
+    object-fit: cover;
     object-position: center center;
-    background: #0a0a0a;
   }
   .hero-nav {
     gap: 16px;
