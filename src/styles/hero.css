@@ -140,8 +140,12 @@
     object-fit: cover;
     object-position: center center;
   }
+  .hero-socials {
+    top: clamp(42px, 8vh, 70px);
+  }
   .hero-nav {
     gap: 16px;
+    bottom: clamp(90px, 18vh, 140px);
   }
   .hero-nav-link {
     font-size: 13px;
